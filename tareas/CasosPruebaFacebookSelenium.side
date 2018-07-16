@@ -1,0 +1,96 @@
+{
+  "id": "8c9f15f6-43e0-4d8d-91db-5a76fd8f6bf0",
+  "name": "Untitled Project",
+  "url": "",
+  "tests": [{
+    "id": "1dd6854f-c57d-4229-9c2c-3de4c144f5d8",
+    "name": "Iniciar Sesion",
+    "commands": [{
+      "id": "59137f32-667f-4b7e-a436-55d936698a8f",
+      "comment": "",
+      "command": "open",
+      "target": "https://facebook.com",
+      "value": ""
+    }, {
+      "id": "d343b045-c8d6-47d3-bd0c-32815b5d3478",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=email",
+      "value": ""
+    }, {
+      "id": "2b9a0a1c-71c9-41c7-8303-29a0d1a5a0ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "value": "lft.email0811@gmail.com"
+    }, {
+      "id": "f1fcc647-c3b4-47df-9f4a-e907ce13e4e0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=pass",
+      "value": ""
+    }, {
+      "id": "56a7bca0-05a0-44f0-874d-7318eb3b94af",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "value": "Pass12//"
+    }, {
+      "id": "a4b92b1a-8116-49f9-a47b-53f860c592c1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=loginbutton",
+      "value": ""
+    }, {
+      "id": "cf3df77d-8cac-4aef-a7e6-44cc0c18335d",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginbutton",
+      "value": ""
+    }]
+  }, {
+    "id": "fb699c95-a250-469e-8210-799a81e32b33",
+    "name": "Entrar a Registro de Publicaciones",
+    "commands": [{
+      "id": "19aa3a8b-b094-4351-b868-362ca42f6bb0",
+      "comment": "",
+      "command": "open",
+      "target": "https://facebook.com",
+      "value": ""
+    }, {
+      "id": "770e2ea0-859e-4964-9954-48caa04c1fe7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=userNavigationLabel",
+      "value": ""
+    }, {
+      "id": "152d6a51-fbcd-4180-932d-7256e20ddfd6",
+      "comment": "",
+      "command": "click",
+      "target": "id=userNavigationLabel",
+      "value": ""
+    }, {
+      "id": "111c1458-7eb4-4cdc-9c73-16d4b7bb172a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//div[@id='js_53']/div/div/ul/li[9]/a/span/span/div",
+      "value": ""
+    }, {
+      "id": "843c58f1-d7e8-46f8-aca4-3d4ee2bba014",
+      "comment": "",
+      "command": "click",
+      "target": "//div[@id='js_53']/div/div/ul/li[9]/a/span/span/div",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "de1fe8b5-c92a-4778-b3b4-76e764234293",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1dd6854f-c57d-4229-9c2c-3de4c144f5d8"]
+  }],
+  "urls": [],
+  "plugins": [],
+  "version": "1.0"
+}
